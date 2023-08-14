@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  width: 90vw;
+  width: 100vw;
   height: 100%;
   background-color: #FEC8D8;
   /* background-color: salmon; */
@@ -197,7 +197,7 @@ a:hover {
 .credits {
 /*   display: block; */
   position: absolute;
-  margin: 0;
+/*   margin: 0; */
   bottom: -300px;
   right: -100px;
   padding-top: .5em;
