@@ -205,7 +205,7 @@ a:hover {
   animation: slide-in-credits 1s forwards;
   animation-delay: 1s;
   width: 100vw;
-  height: 10vh;
+  height: 2vh;
   border: .3em solid black;
   border-bottom: none;
   border-right: none;
@@ -271,6 +271,7 @@ a:hover {
     animation: slide-in-credits 1s forwards;
     animation-delay: 1s;
     width: 80%;
+    height: 12vh;
     border: .5em solid black;
     border-bottom: none;
     border-right: none;
