@@ -227,7 +227,7 @@ a:hover {
   display: none;
 }
 
-@media only screen and (min-width: 414px) and (orientation: landscape){
+/* @media only screen and (min-width: 414px) and (orientation: landscape){
   .credits {
     height: 2vh;
     padding: 0;
@@ -239,7 +239,7 @@ a:hover {
     height: 2vh;
     padding: 0;
   }
-}
+} */
 
 @media (min-width: 768px) {
 
