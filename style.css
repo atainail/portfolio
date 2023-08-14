@@ -15,7 +15,8 @@ body {
   height: 100%;
   background-color: #FEC8D8;
   /* background-color: salmon; */
-  overflow: hidden;
+  position: relative;
+  overflow: hidden; 
 }
 
 .navigation {
