@@ -12,7 +12,7 @@ body {
 
 body {
   width: 100vw;
-  height: 150vh;
+  height: 100vh;
   background-color: #FEC8D8;
   /* background-color: salmon; */
 /*   position: relative; */
@@ -206,7 +206,7 @@ a:hover {
   animation: slide-in-credits 1s forwards;
   animation-delay: 1s;
   width: 100vw;
-  height: 2vh;
+  height: 10vh;
   border: .3em solid black;
   border-bottom: none;
   border-right: none;
@@ -235,13 +235,13 @@ a:hover {
     height: 20vh;
     padding: 0;
     width: 100%;
-    bottom: -100px;
+    bottom: -200px;
     border: .3em solid black;
   }
 
   @keyframes slide-in-credits {
     100% {
-      bottom: -200px;
+      bottom: -100px;
       right: 0;
       opacity: 100%;
     }
@@ -260,7 +260,7 @@ a:hover {
 
   @keyframes slide-in-credits {
     100% {
-      bottom: -400px;
+      bottom: -200px;
       right: 0;
       opacity: 100%;
     }
