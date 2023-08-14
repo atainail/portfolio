@@ -15,7 +15,7 @@ body {
   height: 100%;
   background-color: #FEC8D8;
   /* background-color: salmon; */
-  position: relative;
+/*   position: relative; */
   overflow: hidden; 
 }
 
@@ -197,7 +197,7 @@ a:hover {
 .credits {
 /*   display: block; */
   position: absolute;
-/*   margin: 0; */
+  margin: 0;
   bottom: -300px;
   right: -100px;
   padding-top: .5em;
@@ -227,7 +227,7 @@ a:hover {
   display: none;
 }
 
-/* @media only screen and (min-width: 414px) and (orientation: landscape){
+@media only screen and (min-width: 414px) and (orientation: landscape){
   .credits {
     height: 2vh;
     padding: 0;
@@ -239,7 +239,7 @@ a:hover {
     height: 2vh;
     padding: 0;
   }
-} */
+}
 
 @media (min-width: 768px) {
 
