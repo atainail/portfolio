@@ -229,12 +229,14 @@ a:hover {
 @media only screen and (min-width: 414px) and (orientation: landscape){
   .credits {
     height: 2vh;
+    padding: 0;
   }
 }
 
 @media only screen and (min-width: 896px) and (orientation: portrait){
   .credits {
     height: 2vh;
+    padding: 0;
   }
 }
 
