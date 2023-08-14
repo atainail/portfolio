@@ -34,6 +34,12 @@ Here is a short list of small, independent projects that I have completed.
 
 <p>
 <div>
+<a href="https://atainail.github.io/google_clone/" target="_blank">Old Portfolio Website</a>
+</div>
+</p>
+
+<p>
+<div>
 <a href="https://atainail.github.io/photo-site/index.html" target="_blank">Sample Photo Website</a>
 </div>
 </p>
