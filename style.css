@@ -355,6 +355,11 @@ a:hover {
     }
   }
 
+  .header {
+    font-size: 1.3em;
+    margin-top: -20px;
+  }
+
   .bottom-left {
     display: block;
     position: absolute;
