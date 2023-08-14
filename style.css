@@ -227,21 +227,22 @@ a:hover {
   display: none;
 }
 
-@media only screen and (min-width: 414px) and (orientation: landscape){
+@media only screen and (max-width: 414px) and (orientation: landscape){
   .credits {
-    height: 2vh;
+/*     height: 2vh;
     padding: 0;
     width: 100%;
-    bottom: -100px;
+    bottom: -100px; */
+    display: none;
   }
 }
 
-@media only screen and (min-width: 896px) and (orientation: portrait){
+@media only screen and (max-width: 896px) and (orientation: portrait){
   body {
     overflow-y: auto;
   }
   .credits {
-    height: 2vh;
+    height: 5vh;
     padding: 0;
   }
 }
