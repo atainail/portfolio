@@ -1,0 +1,11 @@
+You would like to know me on a bit more personal level? Well, thank you for that!
+
+<p>To start things off, I have been enamored with web design since I was a little tyke. Myspace and Neopets were my gateways into the world of web development.</p>
+
+<p>After a few tumultuous years (more like a decade) of attending school infrequently, 
+    I graduated from the illustrious Georgia State University with a Bachelor's degree in computer science.
+
+<p>To further my education, I scoured Youtube for tutorials and even purchased a few courses from Udemy.
+    With those tools, I was able to craft this website into the creation it is today.
+
+<p>I strive to create websites that are efficient, clean and up to industry standards.

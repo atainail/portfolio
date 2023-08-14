@@ -1,0 +1,72 @@
+Here is a short list of small, independent projects that I have completed.
+
+<div class="portfolio-links">
+
+<p>
+<div>
+<a href="https://atainail.github.io/weather_app/" target="_blank">Weather App (Using Weather Map Api)</a>
+</div>
+</p>
+
+<p>
+<div>
+<a href="https://atainail.github.io/random_quotes/" target="_blank">Random Quote Generator (Using API)</a>
+</div>
+</p>
+
+<p>
+<div>
+<a href="https://atainail.github.io/markdown_previewer/" target="_blank">Markdown Previewer</a>
+</div>
+ </p>
+
+<p>
+<div>
+<a href="https://atainail.github.io/profanity_censor/" target="_blank">Profanity Censor (Using API)</a>
+</div>
+</p>
+
+<p>
+<div>
+<a href="https://atainail.github.io/google_clone/" target="_blank">Google Clone (As of 4/2023)</a>
+</div>
+</p>
+
+<p>
+<div>
+<a href="https://atainail.github.io/photo-site/index.html" target="_blank">Sample Photo Website</a>
+</div>
+</p>
+    
+<p>
+<div>
+<a href="https://atainail.github.io/crud_list/" target="_blank">Simple CRUD To-do list</a>
+</div>
+</p>
+    
+<p>
+<div>
+<a href="https://atainail.github.io/chatbot_UI/" target="_blank">Chatbot UI (non-functioning)</a>
+</div>
+</p>
+
+<p>
+<div>
+<a href="https://atainail.github.io/sample_website_1/" target="_blank">Sample Website</a>
+</div>
+</p>
+   
+<p>
+<div>
+<a href="https://atainail.github.io/price_table/" target="_blank">Sample Pricing Table</a>
+</div>
+</p>
+
+<p>
+<div>
+<a href="https://atainail.github.io/asrasAdventure/" target="_blank">Small game using only Javascript, HTML, CSS</a>
+</div>
+</p>
+
+</div>
+

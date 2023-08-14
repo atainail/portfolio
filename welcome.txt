@@ -1,0 +1,4 @@
+<p>Hello! My name is Atai Nail. Welcome to my website!</p>
+<p>To keep things brief, I am a front end web developer with some backend experience! This website is a means to showcase my skills.</p>
+<p>Along with HTML, JavaScript, and CSS, I am proficient in React, Python, Java and have even dabbled in C and C++.   </p>
+<p>If you have any questions or inquiries, please feel free to contact me by sending me an email at <a href = "mailto: atainail@yahoo.com?subject=Attn: Portfolio" style="color:white">atainail@yahoo.com</a> with a subject line of "Attn: Portfolio". I look forward to working with you!</p>
