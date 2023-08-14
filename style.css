@@ -195,7 +195,7 @@ a:hover {
 }
 
 .credits {
-  display: block;
+/*   display: block; */
   position: absolute;
 /*   margin: 0; */
   bottom: -300px;
