@@ -304,7 +304,15 @@ a:hover {
     text-align: right;
     max-width: 800px;
   }
+
+  @keyframes slide-in-credits {
+    100% {
+      bottom: 0;
+      right: 0;
+      opacity: 100%;
+    }
 }
+
 
 
 @media (min-width: 1250px) {
