@@ -196,6 +196,7 @@ a:hover {
 .credits {
   display: block;
   position: absolute;
+  margin: 0;
   bottom: -300px;
   right: -100px;
   padding-top: .5em;
@@ -203,7 +204,7 @@ a:hover {
   background-color: rgb(213, 244, 255);
   animation: slide-in-credits 1s forwards;
   animation-delay: 1s;
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   border: .3em solid black;
   border-bottom: none;
