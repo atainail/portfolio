@@ -231,6 +231,12 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 896px) and (orientation: portrait){
+  .credits {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
 
   .navigation {
