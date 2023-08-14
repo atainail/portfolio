@@ -194,6 +194,7 @@ a:hover {
 }
 
 .credits {
+  display: block;
   position: absolute;
   bottom: -300px;
   right: -100px;
@@ -224,6 +225,11 @@ a:hover {
   display: none;
 }
 
+@media only screen and (max-width: 414px) and (orientation: landscape){
+  .credits {
+    display: none;
+  }
+}
 
 @media (min-width: 768px) {
 
