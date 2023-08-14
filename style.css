@@ -229,7 +229,7 @@ a:hover {
 
 @media only screen and (min-width: 414px) and (orientation: landscape){
   .credits {
-    height: 2vh;
+    height: 10vh;
     padding: 0;
     width: 100%;
     bottom: -50px;
@@ -237,13 +237,12 @@ a:hover {
   }
 
   @keyframes slide-in-credits {
-  100% {
-    bottom: -200px;
-    right: 0;
-    opacity: 100%;
-  }
-
-    
+    100% {
+      bottom: -200px;
+      right: 0;
+      opacity: 100%;
+    }
+  } 
 }
 
 @media only screen and (min-width: 896px) and (orientation: portrait){
@@ -251,16 +250,17 @@ a:hover {
     overflow-y: auto;
   }
   .credits {
-    bottom: -200px
+    bottom: -100px
     height: 200px;
     padding: 0;
   }
 
   @keyframes slide-in-credits {
-  100% {
-    bottom: -400px;
-    right: 0;
-    opacity: 100%;
+    100% {
+      bottom: -300px;
+      right: 0;
+      opacity: 100%;
+    }
   }
 }
 
