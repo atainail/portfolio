@@ -162,7 +162,7 @@ a:hover {
 
 .middle {
   position: relative;
-  top: 10vh;
+  top: 12vh;
   left: -10px;
   width: 65vw;
   height: 38vh;
@@ -225,15 +225,15 @@ a:hover {
   display: none;
 }
 
-@media only screen and (max-width: 414px) and (orientation: landscape){
+@media only screen and (min-width: 414px) and (orientation: landscape){
   .credits {
-    display: none;
+    height: 2vh;
   }
 }
 
-@media only screen and (max-width: 896px) and (orientation: portrait){
+@media only screen and (min-width: 896px) and (orientation: portrait){
   .credits {
-    display: none;
+    height: 2vh;
   }
 }
 
