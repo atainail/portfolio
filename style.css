@@ -235,13 +235,13 @@ a:hover {
     height: 20vh;
     padding: 0;
     width: 100%;
-    bottom: -200px;
+    bottom: -300px;
     border: .3em solid black;
   }
 
   @keyframes slide-in-credits {
     100% {
-      bottom: -100px;
+      bottom: -200px;
       right: 0;
       opacity: 100%;
     }
