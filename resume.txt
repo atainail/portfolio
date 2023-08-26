@@ -10,6 +10,12 @@ Here is a short list of small, independent projects that I have completed.
 
 <p>
 <div>
+<a href="https://atainail.github.io/delta_clone_front-end/" target="_blank">Delta Website Clone (Front End Only)</a>
+</div>
+</p>
+
+<p>
+<div>
 <a href="https://atainail.github.io/random_quotes/" target="_blank">Random Quote Generator (Using API)</a>
 </div>
 </p>
