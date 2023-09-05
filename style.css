@@ -52,9 +52,12 @@ a:hover {
 
 .nav-link {
   text-align: center;
-  font-family: 'toon';
-  font-size: 1.8em;
-  text-shadow: 2px 2px white;
+  font-family: 'Helvetica';
+  /* font-family: 'toon'; */
+  font-size: 2em;
+  font-weight: 900;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 .home, .projects, .me, .letters {
@@ -134,8 +137,8 @@ a:hover {
 .top-left {
   position: relative;
   top: 19vh;
-  width: 40vw;
-  min-height: 120px;
+  width: 46vw;
+  min-height: 100px;
   height: 20vh;
   background-color: lightblue;
   border-radius: 0 10px 10px 10px;
@@ -145,10 +148,19 @@ a:hover {
   animation: slide-in-top-left 1s forwards;
   font-size: 1.9em;
   font-weight: bolder;
-  display: flex;
-  align-items: center;
-  text-align: center;
+
+  
 }
+
+.topLeftText {
+  position: relative;
+  font-family: 'Helvetica';
+  color: black;
+  text-shadow: 2px 2px white;
+  margin-top: .5em;
+  
+}
+
 
 @keyframes slide-in-top-left {
   0% {
@@ -201,7 +213,7 @@ a:hover {
   bottom: -300px;
   right: -100px;
   padding-top: .5em;
-  padding-bottom: 1.2em;
+  padding-bottom: 1.6em;
   background-color: rgb(213, 244, 255);
   animation: slide-in-credits 1s forwards;
   animation-delay: 1s;
@@ -211,8 +223,12 @@ a:hover {
   border-bottom: none;
   border-right: none;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.3em;
   opacity: 0;
+  font-family: 'Helvetica';
+  font-weight: 900;
+  color: black;
+  text-shadow: 2px 2px white;
 }
 
 @keyframes slide-in-credits {
@@ -253,7 +269,7 @@ a:hover {
     overflow-y: auto;
   }
   .credits {
-    bottom: -300px
+    bottom: -300px;
     height: 500px;
     padding: 0;
   }
@@ -316,6 +332,7 @@ a:hover {
       right: 0;
       opacity: 100%;
     }
+  }
 }
 
 
@@ -357,6 +374,9 @@ a:hover {
 
   .header {
     font-size: 1.5em;
+    font-family: 'Helvetica';
+    text-shadow: 2px 2px black;
+    font-weight: 900;
   }
 
   .bottom-left {
@@ -371,9 +391,11 @@ a:hover {
     border-bottom: none;
     border-left: none;
     font-size: 1.5em;
-    font-family: "toon";
+    font-family: "Helvetica";
     letter-spacing: 2px;
-    text-shadow: 1px 1px white;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px black;
     animation: 2s bottomLeftFade;
     animation-fill-mode: forwards;
     animation-delay: 4s;
