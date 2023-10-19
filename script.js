@@ -1,60 +1,55 @@
-let topLeftText = document.querySelector(".topLeftText");
-let middleText = document.querySelector(".middleText");
-let background = document.querySelector(".background");
 
-$(document).ready(function(){
-    $(".home").click(function(){
-      $(".middleText").load("welcome.txt").hide().fadeIn('slow');
-      topLeftText.innerHTML = "Welcome to My Portfolio";
-    });
+
+
+let upArrow = document.querySelector(".up-arrow");
+upArrow.addEventListener("click", function(){
+    window.scrollTo({top: 0,  behavior: "smooth"});  
+      console.log(window.scrollY)
 });
 
-$(document).ready(function(){
-    $(".projects").click(function(){
-      $(".middleText").load("resume.txt").hide().fadeIn('slow');
-      topLeftText.innerHTML = "Past Projects";
-    });
+document.addEventListener("scroll", function(){
+    if(window.scrollY > 300){
+        upArrow.style.display = "block";
+
+    } else {
+        upArrow.style.display = "none";
+    }
 });
 
-$(document).ready(function(){
-    $(".me").click(function(){
-      $(".middleText").load("me.txt").hide().fadeIn('slow');
-      topLeftText.innerHTML = "A Bit About Me";
-    });
+let allDivs = document.querySelectorAll("div");
+
+let navigation = document.querySelector(".navigation-container");
+let home = document.querySelector(".home");
+let about = document.querySelector(".about");
+let skills = document.querySelector(".skills");
+let projects = document.querySelector(".projects");
+let contact = document.querySelector(".contact");
+
+let helloSection = document.querySelector(".hello-container");
+let aboutSection = document.querySelector(".about-container");
+let skillsSection = document.querySelector(".skills-container");
+let projectsSection = document.querySelector(".projects-container");
+let contactSection = document.querySelector(".contact-container");
+
+home.addEventListener("click", function(){
+    helloSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
 });
 
-let charIndex = 0;
-let indexFile = " ";
-$.get("index.html", function(response) {
-    indexFile = String(response); 
-
-    setTimeout(function(){
-        setInterval(function(){
-            if (charIndex < indexFile.length) { 
-                background.innerHTML += indexFile.charAt(charIndex);
-                background.scrollTop += 20;
-                charIndex++;
-            } else {
-                clearInterval();
-            }
-        }, 50);
-    }, 4000);   
+about.addEventListener("click", function(){
+    aboutSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
 });
 
+skills.addEventListener("click", function(){
+    skillsSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+});
 
+projects.addEventListener("click", function(){
+    projectsSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+});
 
-
-
-
-
-
-
-   
-                 
- 
-
-
-
+contact.addEventListener("click", function(){
+    contactSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+});
 
 
 
