@@ -76,6 +76,7 @@ a {
 }
 
 .open-close {
+    display: block;
     position: relative;
     text-align: right !important;
     padding-right: 2em !important; 
@@ -92,8 +93,9 @@ a {
     transform: scale(1.1);
 }
 
+ 
+
 .menu {  
-    display: flex;
     flex-direction: column;
     align-items: center;   
     display: none;

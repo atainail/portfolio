@@ -52,5 +52,21 @@ contact.addEventListener("click", function(){
 });
 
 
+// <i class="bi bi-list expand"></i>
+//                 <i class="bi bi-x-lg close"></i>  
+
+let openClose = document.querySelector(".open-close");
+let menu = document.querySelector(".menu");
+
+openClose.addEventListener("click", function(){
+    if(menu.style.display = "none") {
+        menu.style.display = "flex";
+    } else {
+        menu.style.display = "none";
+    }
+    ;
+});
+
+
 
 
