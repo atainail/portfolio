@@ -84,6 +84,8 @@ openClose.addEventListener("click", function(){
 
 let notNavigation = document.querySelector(":not(.navigation-container)");
 
+notNavigation.style.color = 'red';
+
 // notNavigation.addEventListener("click", function(){
 //     menu.style.display = "none";    
 // });
