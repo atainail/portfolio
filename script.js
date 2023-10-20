@@ -86,6 +86,7 @@ let notNavigation = document.querySelector("div:not(.navigation-container)");
 
 notNavigation.addEventListener("click", function(){
     menu.style.display = "none";    
+    openClose.innerHTML = '<i class="bi bi-list expand"></i>'; 
 });
 
 
