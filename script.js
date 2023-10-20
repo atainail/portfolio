@@ -82,13 +82,11 @@ openClose.addEventListener("click", function(){
 
 // document.querySelector("li:not(.completed):not(.selected)");
 
-let notNavigation = document.querySelector(":not(.navigation-container)");
+let notNavigation = document.querySelector("div:not(.navigation-container)");
 
-notNavigation.style.color = 'red';
-
-// notNavigation.addEventListener("click", function(){
-//     menu.style.display = "none";    
-// });
+notNavigation.addEventListener("click", function(){
+    menu.style.display = "none";    
+});
 
 
 
