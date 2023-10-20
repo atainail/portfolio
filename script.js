@@ -33,22 +33,27 @@ let contactSection = document.querySelector(".contact-container");
 
 home.addEventListener("click", function(){
     helloSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+    menu.style.display = "none";  
 });
 
 about.addEventListener("click", function(){
     aboutSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+    menu.style.display = "none";  
 });
 
 skills.addEventListener("click", function(){
     skillsSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+    menu.style.display = "none";  
 });
 
 projects.addEventListener("click", function(){
     projectsSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+    menu.style.display = "none";  
 });
 
 contact.addEventListener("click", function(){
     contactSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+    menu.style.display = "none";  
 });
 
 
@@ -56,16 +61,27 @@ contact.addEventListener("click", function(){
 //                 <i class="bi bi-x-lg close"></i>  
 
 let openClose = document.querySelector(".open-close");
-let menu = document.querySelector(".menu");
 
+
+let menu = document.querySelector(".menu");
 openClose.addEventListener("click", function(){
-    if(menu.style.display = "none") {
-        menu.style.display = "flex";
-    } else {
+
+    if(menu.style.display == "flex") {
+        openClose.innerHTML = '<i class="bi bi-list expand"></i>';
         menu.style.display = "none";
-    }
-    ;
+    } else {      
+        openClose.innerHTML = '<i class="bi bi-x-lg close"></i>';
+        menu.style.display = "flex";       
+    }  
 });
+
+// document.querySelector("li:not(.completed):not(.selected)");
+
+let notNavigation = document.querySelector(":not(.navigation-container)");
+
+// notNavigation.addEventListener("click", function(){
+//     menu.style.display = "none";    
+// });
 
 
 
