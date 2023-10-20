@@ -34,26 +34,31 @@ let contactSection = document.querySelector(".contact-container");
 home.addEventListener("click", function(){
     helloSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
     menu.style.display = "none";  
+    openClose.innerHTML = '<i class="bi bi-list expand"></i>';
 });
 
 about.addEventListener("click", function(){
     aboutSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
     menu.style.display = "none";  
+    openClose.innerHTML = '<i class="bi bi-list expand"></i>';
 });
 
 skills.addEventListener("click", function(){
     skillsSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
     menu.style.display = "none";  
+    openClose.innerHTML = '<i class="bi bi-list expand"></i>';
 });
 
 projects.addEventListener("click", function(){
     projectsSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
-    menu.style.display = "none";  
+    menu.style.display = "none"; 
+    openClose.innerHTML = '<i class="bi bi-list expand"></i>'; 
 });
 
 contact.addEventListener("click", function(){
     contactSection.scrollIntoView({ behavior: "smooth", inline: "nearest" });
-    menu.style.display = "none";  
+    menu.style.display = "none"; 
+    openClose.innerHTML = '<i class="bi bi-list expand"></i>'; 
 });
 
 
