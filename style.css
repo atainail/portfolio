@@ -4,8 +4,8 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, #000000, #222222); 
-    color: white;
+    background-image: linear-gradient(to bottom right, #2F3C7E, #151e4f); 
+    color: #FBEAEB;
     font-family: monospace;  
 }
 
@@ -55,15 +55,15 @@ a {
     width: 100%; 
     position: fixed;
     top: 0px;
-    background-image: linear-gradient(to bottom right, #0F6757, #14A073);  
+    background-image: linear-gradient(to bottom right, #3f497d, #1b244f);  
     letter-spacing: .3em;
     font-size: 1.4em;
     font-weight: 900;
 
     opacity: 90%;
     /* background: rgba(255,255,255,0.15); */
-    backdrop-filter: blur(10px);
-    backdrop-filter: invert(80%);
+    backdrop-filter: blur(2px);
+    /* backdrop-filter: invert(80%); */
 }
    
 
@@ -184,7 +184,7 @@ content div {
 }
 
 .title {
-    color: #31b98e;
+    color: #9298ff;
     font-size: 3em;
     text-align: center;
     font-weight: 700;
@@ -219,12 +219,12 @@ content div {
 }
 
 .project a {
-    color:#10845f;
+    color:#889bda;
     font-weight: 900;
 }
 
 .project-name {
-    color: #0b5b4c;
+    /* color: #0b5b4c; */
     transition: .5s;
     width: 100%;
     font-size: 1.5em;
