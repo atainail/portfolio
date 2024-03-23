@@ -250,7 +250,7 @@ content div {
 
 .project img {
     margin-top: 2em;
-    width: 20em;
+    width: 18em;
     height: 14em;
     border-radius: 5px;
     transition: .3s;
@@ -353,9 +353,9 @@ footer {
         display: flex;
         flex-direction: column;
        
-       height: 700px;
+       /* height: 700px; */
 
-       margin: 0 .5em;
+       margin: 1.5em;
        
        
     }
@@ -386,6 +386,20 @@ footer {
         /* align-items: center; */
         margin: auto;
 
+    }
+
+    .project-information {
+        flex: auto;
+        width: 32%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+       
+       /* height: 700px; */
+
+       margin: 1.2em;
+       
+       
     }
 
     .navigation-container {
