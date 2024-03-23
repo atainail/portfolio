@@ -310,6 +310,7 @@ footer {
 
 .project-information {
     display: inline-block !important;
+    margin: 1.5em;
     
 }
 
@@ -355,7 +356,7 @@ footer {
        
        /* height: 700px; */
 
-       margin: 1.5em;
+       /* margin: 1.5em; */
        
        
     }
